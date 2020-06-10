@@ -15,3 +15,17 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+  }
+  
+  .flex-container>div {
+    background-color: #f1f1f1;
+    height: 200px;
+    margin: 15px;
+  }
