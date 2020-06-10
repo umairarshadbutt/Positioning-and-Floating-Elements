@@ -119,3 +119,29 @@ li a {
       left: 30%;
   }
 }
+
+.wrapper-container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: aqua */
+}
+
+.wrapper-container div span a {
+  color: #121212;
+  font-weight: bold;
+}
+
+.social-icons{
+  float: right;
+  align-items: center;
+}
+
+.social-icons i.fa {
+  margin: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #EEEEEE;
+  padding: 0.65em 0.8em;
+}
+
