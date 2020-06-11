@@ -265,7 +265,16 @@ li a {
   margin-left: auto;
   margin-right: auto;
   color: #EBEBEB;
+  border-top: 1px solid black;
 }
+
+.simple-shadowed-line{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #E2E2E2;
+}
+
 .all-footer {
   text-align: left
 }
@@ -291,11 +300,11 @@ li a {
   margin: 10px;
   border-style: dotted;
 }
-.header-and-article-names {
+.header-names {
   display: flex;
   justify-content: flex-start;
 }
-.header-and-article-names a{
+.header-names a{
   text-decoration: none;
   color: #121212;
 }
@@ -307,9 +316,20 @@ a:hover {
   flex-flow: column;
   justify-content: flex-start;
 }
+
 .article-name h3 a{
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  color: rgb(18, 18, 18);  
+  font-size: 0.9875rem;
+  line-height: 1.4375rem;
   text-decoration: none;
 }
+.article-name h3 a:hover {
+  color: #6E7392;
+}
+
+
 .bold-line {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
