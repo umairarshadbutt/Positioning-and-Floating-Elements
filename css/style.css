@@ -58,8 +58,16 @@ li a {
     font-style: normal;
     font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
     color: #666;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.inflation img{
+  height: auto;
+  max-width: 100%;
 }
 .flex-container-nflation  > div {
+  width: 200px;
+  height: 223px;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
