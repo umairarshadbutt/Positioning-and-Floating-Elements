@@ -47,6 +47,19 @@ li a {
   text-decoration: none;
   color: black;
 }
+.logo-link{
+  margin-top: 20px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-link img{
+  float: left;
+  margin-bottom: 10px;
+}
+.logo-link a{
+  float: right;
+}
 .flex-container-nflation{
   display: flex;
 }
@@ -129,6 +142,39 @@ li a {
   flex-direction: column;
 }
 
+.footer-grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+.footer-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+}
+.footer-grid-item h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-grid-item ul{
+  font-weight: 400;
+}
+.footer-grid-item ul li{
+  float: none;
+}
+.footer-grid-item ul li a{
+  display: block;
+  text-align: left;
+  padding: 8px 16px 0 0;
+  text-decoration: none;
+  color: black;
+}
+.footer-grid-item ul li a:hover{
+  text-decoration: underline;
+}
 /* .flex-container > div {
   background-color: #f1f1f1;
   height: 200px;
@@ -211,6 +257,9 @@ li a {
   margin-right: auto;
   width: 80%;
 }
+.services ul{
+  font-size: 1rem;
+}
 @media (max-width: 767px) {
   .navbar-visibility-hidden {
       display: none;
@@ -286,7 +335,7 @@ li a {
     color: #666;
 }
 
-.complete-footer-flex-container {
+.copyright-flex-container {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -295,15 +344,15 @@ li a {
   margin-left: auto;
   margin-right: auto;
 }
-.complete-footer-flex-container > div {
+.copyright-flex-container > div {
   margin: 10px;
   text-align: center;
   font-size: 15px;
 }
-.complete-footer-flex-container > div:hover {
+.copyright-flex-container > div:hover {
   text-decoration: underline;
 }
-.complete-footer-flex-container > div > small > a {
+.copyright-flex-container > div > small > a {
   color: #121212;
   text-decoration: none;
   font:inherit;
