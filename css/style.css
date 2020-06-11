@@ -373,15 +373,12 @@ li a {
 }
 
 .all-footer {
-  text-align: left
 }
 /* more-info part */
 .more-info {
   display: flex;
   flex-wrap: column wrap;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   width: 1300px;
 }
 .more-posts {
