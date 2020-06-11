@@ -51,27 +51,75 @@ li a {
   display: flex;
 }
 .inflation{
-  font-size: .875rem;
+  font-size: 1.1rem;
     line-height: 18px;
-    line-height: 1.125rem;
-    font-weight: 400;
+    line-height: 1.25rem;
     font-style: normal;
     font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
-    color: #666;
-    margin-left: 25px;
     margin-right: 25px;
+    margin-left: 60px;
+}
+.image-text-possition{
+  position: relative;
 }
 .inflation img{
   height: auto;
-  max-width: 100%;
+  max-width: 1150px;
 }
+
+.image-text-possition p {
+  width: 236px;
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 1.01px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+.inflation .astronomer{
+  top: 159px;
+  left: 39px;
+}
+.inflation .enough-time{
+  top: 159px;
+    left: 305px;
+}
+.inflation .distance-office{
+  top: 159px;
+    left: 605px;
+}
+.inflation .coffe-everywhere{
+  top: 159px;
+    left: 905px;
+}
+.inflation .not-enough-time{
+  top: 500px;
+    left: 39px;
+}
+
+.inflation .inflation-para{
+  top: 500px;
+    left: 305px;
+}
+
+.inflation .fluctution{
+  top: 500px;
+    left: 605px;
+}
+
+.inflation .expension{
+  top: 500px;
+    left: 905px;
+}
+
 .flex-container-nflation  > div {
-  width: 200px;
-  height: 223px;
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+      width: 208px;
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: 1.01px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #000000;
 }
 .flex-container {
   display: flex;
