@@ -380,22 +380,21 @@ li a {
   display: flex;
   flex-wrap: column wrap;
   justify-content: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1300px;
 }
 .more-posts {
-  flex: 70%;
+  flex: 75%;
   padding: 20px;
   margin: 10px;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 .most-popular {
-  flex: 30%;
+  flex: 25%;
   padding: 20px;
   margin: 10px;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 .header-names {
   display: flex;
@@ -442,4 +441,65 @@ a:hover {
 }
 .menu-content {
   text-align: center
+}
+
+.more-posts-flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  /* background-color: DodgerBlue; */
+}
+
+.more-posts-flex-container > div {
+  /* background-color: #f1f1f1; */
+  width: 270px;
+  margin: 10px;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.more-posts-flex-container > div > img {
+  width: 100%;
+}
+
+.single-post-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.image-ref {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 10px;
+  color: #666;
+  float: right;
+}
+
+.more-article-name h3{
+  margin: 0;
+}
+
+.more-article-name h3 a{
+  float: left;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  color: rgb(18, 18, 18);  
+  font-size: 0.9875rem;
+  line-height: 1.4375rem;
+  text-decoration: none;
+}
+.article-name h3 a:hover {
+  color: #6E7392;
+}
+
+.date-published {
+  flex: 1;         
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 10px;
+  color: #666;
+  float: right;
 }
