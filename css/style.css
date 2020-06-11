@@ -47,7 +47,24 @@ li a {
   text-decoration: none;
   color: black;
 }
-
+.flex-container-nflation{
+  display: flex;
+}
+.inflation{
+  font-size: .875rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+}
+.flex-container-nflation  > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
 .flex-container {
   display: flex;
   justify-content: center;
