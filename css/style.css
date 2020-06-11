@@ -4,8 +4,10 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
-h1{
+a {
+   color: rgb(50, 104, 145);;
+}
+h1 h3{
   color: #121212;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-weight: 700;
@@ -60,7 +62,22 @@ li a {
   margin: 15px;
 } */
 
-
+.article-content{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.article-content p span{
+  bottom: 20px;
+  top: 20px;
+  text-align: center;
+  margin-left: 38%;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.article-content p span a{
+  text-decoration: none;
+  margin-left: 36%;
+}
 .nav-button {
   height: 36px;
   margin: 1px;
@@ -145,3 +162,9 @@ li a {
   padding: 0.65em 0.8em;
 }
 
+.video-des{
+  font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-right: 7px;
+    color: #666;
+}
