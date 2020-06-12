@@ -538,6 +538,59 @@ a:hover {
   justify-content: space-between;
 }
 
+.single-post-container-for-sidebar {
+    display: flex;
+
+}
+
+.more-article-image-for-sidebar {
+  margin: 20px 30px 0 0;
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.more-article-name-for-sidebar {
+  flex: 1 1 auto;
+  margin: auto 0px auto 10px;
+  
+}
+
+.more-article-name-for-sidebar h3 a{
+  float: left;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  color: rgb(18, 18, 18);  
+  font-size: 1.0875rem;
+  text-decoration: none;
+}
+
+.more-article-name-for-sidebar h3 a:hover{
+  text-decoration: underline;
+}
+
+.more-posts-flex-container-for-sidebar {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  /* background-color: DodgerBlue; */
+}
+
+.more-posts-flex-container-for-sidebar > div {
+  /* background-color: #f1f1f1; */
+  width: 350px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+
+.more-posts-flex-container-for-sidebar > div > img {
+  width: 40%;
+}
+
+.header-name-for-sidebar{
+  font-size: 21px;
+  color: #000000
+}
+
 .image-ref {
   flex: 1;
   display: flex;
@@ -574,3 +627,33 @@ a:hover {
   color: #666;
   float: right;
 }
+
+
+.beginning-part-of-article-content{
+  display: flex;
+  flex-wrap: column wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}
+
+.article-content-on-left{
+  flex: 55%;
+  width: 600px;
+  padding: 20px;
+  margin: 10px;
+  /* border-style: dotted; */
+}
+
+.sidebar-editors-pick{
+  flex: 45%;
+  padding: 20px;
+  margin: 10px;
+  width: 1100px;
+
+  /* border-style: dotted; */
+  transform: scale(0.6);
+}
+
