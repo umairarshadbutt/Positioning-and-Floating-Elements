@@ -49,7 +49,7 @@ li a {
 }
 .logo-link{
   margin-top: 20px;
-  width: 1300px;
+  width: 1180px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,7 +148,7 @@ li a {
   grid-template-columns: auto auto auto auto auto auto;
   margin-left: auto;
   margin-right: auto;
-  width: 1300px;
+  width: 1180px;
 }
 
 .footer-grid-item {
@@ -175,12 +175,27 @@ li a {
 .footer-grid-item ul li a:hover{
   text-decoration: underline;
 }
+.footer-border-left{
+  border-left: 1px solid #e2e2e2;
+ padding-left: 11px;}
 /* .flex-container > div {
   background-color: #f1f1f1;
   height: 200px;
   margin: 15px;
 } */
 
+.footer-subscription-bold-line{
+  background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 17px;
+    margin-top: 0;
+    width: 171px;
+    margin-left: 0;
+    margin-right: auto;
+    color: #EBEBEB;
+}
 .article-content{
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -215,6 +230,11 @@ li a {
 
 .navbar-visibility-visible {
   visibility: hidden;
+}
+.notification
+{
+  font-size: 11.5px;
+  padding-left: 5px;
 }
 
 .read-comment-button{
@@ -259,6 +279,18 @@ li a {
 }
 .services ul{
   font-size: 1rem;
+}
+.services  ul li img{
+  position: absolute;
+  left: 78%;
+  height: 20px;
+  margin-top: 1px;
+}   
+.services b{
+  margin-left: 6%;
+}
+.services a{
+  padding-top: 2px !important;
 }
 @media (max-width: 767px) {
   .navbar-visibility-hidden {
@@ -340,12 +372,12 @@ li a {
   justify-content: center;
   align-items: baseline;
   flex-flow: row wrap;
-  width: 1300px;
+  width: 1180px;
   margin-left: auto;
   margin-right: auto;
 }
 .copyright-flex-container > div {
-  margin: 10px;
+  margin: 7px;
   text-align: center;
   font-size: 15px;
 }
@@ -373,13 +405,16 @@ li a {
 }
 
 .all-footer {
+  text-align: left
 }
 /* more-info part */
 .more-info {
   display: flex;
   flex-wrap: column wrap;
   justify-content: center;
-  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1180px;
 }
 .more-posts {
   flex: 75%;
@@ -431,7 +466,7 @@ a:hover {
   display: block;
   height: 1px;
   margin-top: 0;
-  width: 1300px;
+  width: 1180px;
   margin-left: auto;
   margin-right: auto;
   color: #EBEBEB;
@@ -449,7 +484,7 @@ a:hover {
 .more-posts-flex-container > div {
   /* background-color: #f1f1f1; */
   width: 270px;
-  margin: 10px;
+  margin: 7px;
   line-height: 30px;
   font-size: 30px;
 }
