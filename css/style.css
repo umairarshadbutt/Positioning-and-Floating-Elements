@@ -242,6 +242,14 @@ li a {
 .navbar-visibility-visible {
   visibility: hidden;
 }
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
 .notification
 {
   font-size: 11.5px;
