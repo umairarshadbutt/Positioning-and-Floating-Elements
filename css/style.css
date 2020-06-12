@@ -300,14 +300,12 @@ li a {
   font-size: 1rem;
 }
 .services  ul li img{
-  position: absolute;
+  position: unset;
   left: 78%;
   height: 20px;
   margin-top: 1px;
 }   
-.services b{
-  margin-left: 6%;
-}
+
 .services a{
   padding-top: 2px !important;
 }
