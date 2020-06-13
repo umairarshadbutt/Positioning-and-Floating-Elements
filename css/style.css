@@ -461,7 +461,6 @@ li a {
   border-top: 1px solid #e2e2e2;
 }
 
-/* more-info part */
 .more-info {
   display: flex;
   flex-wrap: column wrap;
@@ -475,16 +474,12 @@ li a {
   flex: 75%;
   padding: 20px;
   margin: 10px;
-
-  /* border-style: dotted; */
 }
 
 .most-popular {
   flex: 25%;
   padding: 20px;
   margin: 10px;
-
-  /* border-style: dotted; */
 }
 
 .header-names {
