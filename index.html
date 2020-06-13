@@ -2,8 +2,17 @@
 <html lang="en">
 
 <head>
+    <style>
+        #navbar {
+  background-color: #f1f1f1;
+  transition: 1.4s;
+  position: fixed;
+
+}
+    </style>
     <meta charset="utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="js/script.js" rel="javascript" type="text/js">
     <title>Space Ripples Reveal Big Bang’s Smoking Gun</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -14,25 +23,24 @@
     <header>
         <nav>
             <ul class="navbar">
-                <li>
+                <li id="scroll1">
                     <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 </li>
-                <li class="navbar-visibility-hidden">
+                <li class="navbar-visibility-hidden" id="scroll2">
                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
-                <li class="navbar-visibility-hidden"><a href="#">SPACE & COSMOS </a></li>
-                <li>
-                    <img src="img/NewYorkTimes.svg" alt="Logo" />
+                <li class="navbar-visibility-hidden" id="scroll3"><a href="#">SPACE & COSMOS </a></li>
+                <li >
+                    <img id="navbar-img" src="img/NewYorkTimes.svg" alt="Logo" />
                 </li>
-                
+                <li id="scroll-change">
+                   <b>SPACE & COSMOS </b>|Space Ripples Reveal Big Bang’s Smoking Gun
+                </li>
                     <li class="navbar-visibility-visible navbar-right-list ">
                         <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
                     </li>
-                
                     <li class="navbar-visibility-hidden navbar-right-list "><button type="button" class="nav-button">LOG IN</button></li>
                     <li class="navbar-visibility-hidden navbar-right-list " ><button type="button" class="nav-button">SUBSCRIBE NOW</button></li>
-                   
-               
             </ul>
             <hr />
             <ul class="responsive-navbar-button navbar-right-list  navbar-visibility-visible">
@@ -42,7 +50,19 @@
             </ul>
         </nav>
     </header>
-
+    <script>
+        window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 200) {
+          document.getElementById("scroll1").style.display = "none";
+          document.getElementById("scroll2").style.display = "none";
+          document.getElementById("scroll3").style.display = "none";
+          document.getElementById("navbar-img").style.left = "2%";
+          document.getElementById("scroll-change").style.display = "inline";
+        } 
+      }
+    </script>
     <section>
         <div class="flex-container">
             <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
@@ -347,53 +367,92 @@
         <h3>
             Spirals in the Sky
         </h3>
-        <p>
-            Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation
-            in his lifetime. “With nature, you have to be lucky,” he said. “Apparently we have been lucky.”
+        <p>Gravity waves are the latest and deepest secret yet pried out of the cosmic microwaves, which were discovered accidentally by Arno Penzias and Robert Wilson at Bell Labs 50 years ago. They won the Nobel Prize.
+        </p>
+            <p>
+        Dr. Kovac has spent his career trying to read the secrets of these waves. He is one of four leaders of Bicep, which has operated a series of increasingly sensitive radio telescopes at the South Pole, where the thin, dry air creates ideal observing conditions. The others are Clement Pryke of the University of Minnesota, Jamie Bock of the California Institute of Technology and Dr. Kuo of Stanford.
+            </p>
+            <p>
+        “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
+            </p>
+            <img src="img/articleLarge.jpg">
+            <p class="article-img-desc">
+                The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.Credit...Steffen Richter/Associated Press
+            </p>
+<p>
+            In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.
         </p>
         <p>
-            The results are the closely guarded distillation of three years’ worth of observations and analysis.
-            Eschewing email for fear of a leak, Dr. Kovac personally delivered drafts of his work to a select few,
-            meeting with Dr.
-            Guth, who is now a professor at Massachusetts Institute of Technology (as is his son, Larry, who was
-            sleeping that night in 1979), in his office last week.
-        </p>
-        <p>
-            “It was a very special moment, and one we took very seriously as scientists,” said Dr. Kovac, who chose his
-            words as carefully as he tended his radio telescopes.
-        </p>
-        <p>
-            Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation,
-            known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin
-            Kuo, a
-            Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle of Champagne to tell
-            him the news.
-        </p>
+This was a step toward the ultimate goal of detecting the gravitational waves from inflation. Such waves, squeezing space in one direction and stretching it in another as they go by, would twist the direction of polarization of the microwaves, theorists said. As a result, maps of the polarization in the sky should have little arrows going in spirals.
+</p>
+<p>
+Detecting those spirals required measuring infinitesimally small differences in the temperature of the microwaves. The group’s telescope, Bicep2, is basically a giant superconducting thermometer.
+</p>
+<p>
+“We had no expectations what we would see,” Dr. Kovac said.
+</p>
+<p>
+The strength of the signal surprised the researchers, and they spent a year burning up time on a Harvard supercomputer, making sure they had things right and worrying that competitors might beat them to the breakthrough.
+</p>
+<p>       
 
-        <p>
-            In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light
-            waves had a slight preference to vibrate in one direction rather than another.
-        </p>
-        <p>
-            This was a step toward the ultimate goal of detecting the gravitational waves from inflation. Such waves,
-            squeezing space in one direction and stretching it in another as they go by, would twist the direction of
-            polarization of the microwaves, theorists said. As a result, maps of the polarization in the sky should have
-            little arrows going in spirals.
-        </p>
-        <p>
-            Detecting those spirals required measuring infinitesimally small differences in the temperature of the
-            microwaves. The group’s telescope, Bicep2, is basically a giant superconducting thermometer.
-        </p>
-        <p>
-            “We had no expectations what we would see,” Dr. Kovac said.
-        </p>
-        <p>
-            The strength of the signal surprised the researchers, and they spent a year burning up time on a Harvard
-            supercomputer, making sure they had things right and worrying that competitors might beat them to the
-            breakthrough.
-        </p>
+<h3>
+    A Special Time
+</h3>
 
-        <p class="article-end">
+<p></p>
+The data traced the onset of inflation to a time that physicists like Dr. Guth, staying up late in his Palo Alto house 35 years ago, suspected was a special break point in the evolution of the universe.
+</p><p>
+Physicists recognize four forces at work in the world today: gravity, electromagnetism, and strong and weak nuclear forces. But they have long suspected that those are simply different manifestations of a single unified force that ruled the universe in its earliest, hottest moments.
+</p>
+<p>
+
+As the universe cooled, according to this theory, there was a fall from grace, like some old folk mythology of gods or brothers falling out with each other. The laws of physics evolved, with one force after another splitting away.
+</p>
+<p>
+
+That was where Dr. Guth came in.
+</p>
+<p>
+
+Under some circumstances, a glass of water can stay liquid as the temperature falls below 32 degrees, until it is disturbed, at which point it will rapidly freeze, releasing latent heat.
+</p>
+<p>
+
+Similarly, the universe could “supercool” and stay in a unified state too long. In that case, space itself would become imbued with a mysterious latent energy.
+</p>
+<p>
+
+Inserted into Einstein’s equations, the latent energy would act as a kind of antigravity, and the universe would blow itself up. Since it was space itself supplying the repulsive force, the more space was created, the harder it pushed apart.
+</p>
+<p>
+
+What would become our observable universe mushroomed in size at least a trillion trillionfold — from a submicroscopic speck of primordial energy to the size of a grapefruit — in less than a cosmic eye-blink.
+</p>
+<p>
+
+Almost as quickly, this pulse would subside, relaxing into ordinary particles and radiation. All of normal cosmic history was still ahead, resulting in today’s observable universe, a patch of sky and stars billions of light-years across. “It’s often said that there is no such thing as a free lunch,” Dr. Guth likes to say, “but the universe might be the ultimate free lunch.”
+</p>
+<p>
+
+Make that free lunches. Most of the hundred or so models resulting from Dr. Guth’s original vision suggest that inflation, once started, is eternal. Even as our own universe settled down to a comfortable homey expansion, the rest of the cosmos will continue blowing up, spinning off other bubbles endlessly, a concept known as the multiverse.
+</p>
+<p>
+
+So the future of the cosmos is perhaps bright and fecund, but do not bother asking about going any deeper into the past.
+</p>
+<p>
+
+We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.
+</p>
+<p>
+
+<p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
+</p>
+
+
+
+<p class="article-end">
             A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with
             the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="#">Order Reprints</a> | <a
                 href="#">Today’s Paper</a> | <a href="#"> Subscribe</a>
@@ -472,7 +531,7 @@
                     <div class="header-names">
                         <h3> <a href="#"> Editors’ Picks</a> </h3>
                     </div>
-                    <div class="more-posts-flex-container">
+                    <aside class="more-posts-flex-container">
                         <div class="single-post-container">
                             <img class="more-article-image" src="img/extra_posts/editor-picked-post1.jpg" alt="">
                             <small class="image-ref">Brittainy Newman/The New York Times</small>
@@ -500,7 +559,7 @@
                             </div>
                             <small class="date-published">June 7</small>
                         </div>
-                    </div>
+                    </aside>
                 </div>
     
             </div>

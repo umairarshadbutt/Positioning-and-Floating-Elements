@@ -116,11 +116,11 @@ li a {
 .image-text-possition p {
   width: 236px;
   position: absolute;
-  font-size: 14px;
   letter-spacing: 1.01px;
-  line-height: 20px;
-  font-weight: 300;
-  color: #000;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: lighter;
 }
 
 .inflation .astronomer {
@@ -250,15 +250,6 @@ li a {
 .article-content {
   font-size: 1.25rem;
   line-height: 1.875rem;
-}
-
-.article-content p span {
-  bottom: 20px;
-  top: 20px;
-  text-align: center;
-  margin-left: 38%;
-  font-size: 1.1rem;
-  font-weight: 600;
 }
 
 .nav-button {
@@ -574,12 +565,10 @@ a:hover {
 }
 
 .more-posts-flex-container-for-sidebar {
-  display: flex;
   flex-wrap: wrap-reverse;
 }
 
 .more-posts-flex-container-for-sidebar > div {
-  /* background-color: #f1f1f1; */
   width: 350px;
   line-height: 30px;
   font-size: 20px;
@@ -606,6 +595,27 @@ a:hover {
   font-size: 10px;
   color: #666;
   float: right;
+}
+
+.article-img-desc {
+  margin-right: 7px;
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.article-img-desc span {
+  margin-right: 6px;
+}
+
+.article-content p span {
+  bottom: 20px;
+  top: 20px;
+  text-align: center;
+  margin-left: 28%;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .more-article-name h3 {
@@ -639,11 +649,11 @@ a:hover {
 
 .article-content p span a {
   text-decoration: none;
-  margin-left: 36%;
+  margin-left: 27%;
 }
 
 .wrapper-container div span a {
-  color: #121212;
+  color: rgb(50, 104, 145);
   font-weight: bold;
 }
 
@@ -676,19 +686,32 @@ a:hover {
 }
 
 .beginning-part-of-article-content {
+  position: relative;
   display: flex;
-  flex-wrap: column wrap;
   justify-content: center;
   align-items: baseline;
   margin-left: auto;
   margin-right: auto;
-  width: 935px;
 }
 
 .sidebar-editors-pick {
+  position: absolute;
   flex: 45%;
+  left: 502px;
+  top: 765px;
   padding: 20px;
   margin: 10px;
-  width: 1100px;
   transform: scale(0.6);
+}
+
+#navbar-img {
+  position: absolute;
+  left: 42%;
+  margin-top: 4px;
+}
+
+#scroll-change {
+  display: none;
+  margin-left: 28%;
+  margin-top: 8px;
 }
