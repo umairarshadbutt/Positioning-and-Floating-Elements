@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Positioning-and-Floating-Elements/9b58f1518f7cdb88a51a51d354f3320f348c69c3/index.html)
+[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Positioning-and-Floating-Elements/cba307501c220c0b50241b7f46bc5d81cdc84fd3/index.html)
 
 
 ## Getting Started
