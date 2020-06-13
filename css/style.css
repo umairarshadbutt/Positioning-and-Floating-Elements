@@ -111,6 +111,10 @@ li a {
   max-width: 1150px;
 }
 
+.services li img {
+  position: unset;
+}
+
 .image-text-possition p {
   width: 236px;
   position: absolute;
@@ -175,9 +179,19 @@ li a {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* height: 300px; */
+  margin-top: 40px;
   flex-direction: column;
+}
+
+.flex-container h1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 0%;
+  width: 600px;
 }
 
 .footer-grid-container {
@@ -281,6 +295,7 @@ li a {
   top: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 1;
 }
 
 .notification {
@@ -307,11 +322,12 @@ li a {
 }
 
 .img-desc {
-  margin-left: 10%;
+  margin-left: 20%;
   margin-right: 10%;
 }
 
 .responsive-navbar-button {
+  margin-top: 12px;
   font-size: 11px;
   color: rgb(50, 104, 145);
   margin-left: 8px;
@@ -328,7 +344,6 @@ li a {
 .space-image {
   display: block;
   margin-left: auto;
-  margin-right: auto;
   width: 80%;
 }
 
@@ -681,7 +696,7 @@ a:hover {
   align-items: baseline;
   margin-left: auto;
   margin-right: auto;
-  width: 1100px;
+  width: 935px;
 }
 
 .sidebar-editors-pick {
