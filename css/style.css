@@ -100,6 +100,12 @@ li a {
   margin-left: 60px;
 }
 
+.inflamation-line {
+  margin-left: 33px;
+  width: 32px;
+  border-top: 1px solid black;
+}
+
 .image-text-possition {
   position: relative;
 }
@@ -121,6 +127,11 @@ li a {
   font-size: 14px;
   line-height: 17px;
   font-weight: lighter;
+}
+
+.image-text-possition span p {
+  width: 636px;
+  margin-left: 36px;
 }
 
 .inflation .astronomer {
@@ -161,6 +172,12 @@ li a {
 .inflation .expension {
   top: 500px;
   left: 905px;
+}
+
+.inflation .writer {
+  top: 800px;
+  left: 39px;
+  width: 388px;
 }
 
 .flex-container-nflation > div {
@@ -409,16 +426,6 @@ li a {
   padding: 0.65em 0.8em;
 }
 
-.social-icons i.fa:hover {
-  color: #000;
-  background: #fff;
-  border-color: #000;
-  display: inline-block;
-  border-radius: 70px;
-  box-shadow: 0 0 2px #888;
-  padding: 0.65em 0.8em;
-}
-
 .video-des {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -634,6 +641,10 @@ a:hover {
   text-decoration: none;
 }
 
+.wrapper-container span a {
+  text-decoration: none;
+}
+
 .footer-grid-item ul li a {
   display: block;
   text-align: left;
@@ -650,6 +661,20 @@ a:hover {
 .wrapper-container div span a {
   color: rgb(50, 104, 145);
   font-weight: bold;
+}
+
+.social-icons span i.fa {
+  background-color: #fff;
+}
+
+.social-icons i.fa:hover {
+  color: #000;
+  background: #fff;
+  border-color: #000;
+  display: inline-block;
+  border-radius: 70px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.65em 0.8em;
 }
 
 .copyright-flex-container > div > small > a {
